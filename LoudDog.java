@@ -1,3 +1,9 @@
 public class LoudDog {
-    //this class extends Dog and LoudDogs speak 3 times.
+    public LoudDog() {
+        super(n);
+    }
+
+    public String speak() {
+        return super.speak() + " "+ super.speak() + " " + super.speak();
+    }
 }

@@ -1,3 +1,9 @@
 public class Cat {
-    //this class is to be exactly like Dog, except that Cats meow.
+    public Cat(String n) {
+        super(n);
+    }
+
+    public String speak() {
+         return "meow";
+    }
 }
